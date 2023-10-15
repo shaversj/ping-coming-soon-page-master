@@ -16,7 +16,8 @@ export default {
         "secondary-pale-blue": "hsl(223, 100%, 88%)",
         "secondary-light-red": "hsl(354, 100%, 66%)",
         "neutral-gray": "hsl(0, 0%, 59%)",
-        "neutral-very-dark-blue": "hsl(209, 33%, 12%)"
+        "neutral-very-dark-blue": "hsl(209, 33%, 12%)",
+        "light-gray-placeholder": "hsl(230, 12%, 80%)"
       },
       fontFamily: {
         "Libre-Franklin": ['Libre Franklin', "sans-serif"]
