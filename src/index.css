@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.social-custom-class .social-svg-icon {
+    fill: #4f7df3 !important;
+}
+
+.social-custom-class .social-svg {
+    color: white;
+    border: 1px solid #eeeef7;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.social-custom-class:hover .social-svg-icon {
+    fill: white !important;
+}
+
+.social-custom-class:hover .social-svg {
+    color: #4f7df3;
+}

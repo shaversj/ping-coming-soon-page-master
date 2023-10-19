@@ -84,51 +84,13 @@ function App() {
         {/*    Social Icons */}
         <div className={"pt-[7.75rem] lg:pt-[4.375rem] flex items-center justify-center space-x-2.5"}>
           <div>
-            <SocialIcon
-              network="facebook"
-              fgColor={"#4f7df3"}
-              bgColor={"#FFFFFF"}
-              style={{
-                height: 31,
-                width: 31,
-                border: "1px solid #eeeef7",
-                "border-radius": "50%",
-                "-moz-border-radius": "50%",
-                "-webkit-border-radius": "50%"
-              }}
-            />
+            <SocialIcon network="facebook" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
           </div>
-
           <div>
-            <SocialIcon
-              network="twitter"
-              fgColor={"#4f7df3"}
-              bgColor={"#FFFFFF"}
-              style={{
-                height: 31,
-                width: 31,
-                border: "1px solid #eeeef7",
-                "border-radius": "50%",
-                "-moz-border-radius": "50%",
-                "-webkit-border-radius": "50%"
-              }}
-            />
+            <SocialIcon network="twitter" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
           </div>
-
           <div>
-            <SocialIcon
-              network="instagram"
-              fgColor={"#4f7df3"}
-              bgColor={"#FFFFFF"}
-              style={{
-                height: 31,
-                width: 31,
-                border: "1px solid #eeeef7",
-                "border-radius": "50%",
-                "-moz-border-radius": "50%",
-                "-webkit-border-radius": "50%"
-              }}
-            />
+            <SocialIcon network="instagram" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
           </div>
         </div>
 
