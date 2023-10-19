@@ -70,15 +70,9 @@ function App() {
 
         {/*    Social Icons */}
         <div className={"pt-[7.75rem] lg:pt-[4.375rem] flex items-center justify-center space-x-2.5"}>
-          <div>
-            <SocialIcon network="facebook" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
-          </div>
-          <div>
-            <SocialIcon network="twitter" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
-          </div>
-          <div>
-            <SocialIcon network="instagram" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
-          </div>
+          <SocialIcon network="facebook" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
+          <SocialIcon network="twitter" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
+          <SocialIcon network="instagram" fgColor={"currentColor"} bgColor={"currentColor"} className={"social-custom-class"} style={{ height: 31, width: 31 }} />
         </div>
 
         {/*    Footer */}
