@@ -1,20 +1,7 @@
 import dashboard from "/src/assets/images/illustration-dashboard.png"
 import { SocialIcon } from "react-social-icons"
-import { useState } from "react"
 
 function App() {
-  const [isValidEmail, setIsValidEmail] = useState(true)
-
-  function validateEmail(input) {
-    let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-
-    if (input.value.match(validRegex)) {
-      setIsValidEmail(true)
-    } else {
-      setIsValidEmail(false)
-    }
-  }
-
   return (
     <>
       <main className={"max-w-screen-sm lg:max-w-screen-lg min-h-screen mx-auto flex flex-col justify-center font-Libre-Franklin px-[1.725rem]"}>
