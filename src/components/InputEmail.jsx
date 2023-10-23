@@ -1,6 +1,6 @@
 const InputEmail = ({ pattern, placeholderText, errorText, required, type, name, id }) => {
   return (
-    <label htmlFor={"email lg:relative"}>
+    <label htmlFor={"email"}>
       <input
         pattern={pattern}
         required={required}

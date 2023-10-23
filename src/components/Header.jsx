@@ -3,7 +3,7 @@ import React from "react"
 const Header = () => {
   return (
     <>
-      <div className={"flex justify-center pt-[3.75rem] lg:pt-10"}>
+      <div className={"flex justify-center items-center"}>
         <svg className={"w-[3.438rem] lg:w-[5.5rem]"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 26">
           <g fill="none">
             <path
